@@ -1,0 +1,65 @@
+## Notebook 00 (Granite).ipynb: cells=24 syntax_errors=0 changed_lines=12
+  c0 -Fresh-run release. Follow the input and review gates in RUN_ORDER.md.
+  c0 +Granite run (ibm-granite/granite-3.3-8b-instruct). Fresh-run release. Follow the input and review gates in RUN_ORDER.md.
+  c6 -MODEL_ID = "meta-llama/Llama-3.1-8B-Instruct"
+  c6 -REQUESTED_MODEL_REVISION = "0e9e39f249a16976918f6564b8830bc894c89659"
+  c6 +MODEL_ID = "ibm-granite/granite-3.3-8b-instruct"
+  c6 +REQUESTED_MODEL_REVISION = "51dd4bc2ade4059a6bd87649d68aa11e4fb2529b"
+  c6 -MAX_RENDERED_INPUT_TOKENS = 5120
+  c6 +MAX_RENDERED_INPUT_TOKENS = 5376
+  c11 -        "The configured 17,408-token total "
+  c11 +        "The configured 17,664-token total "
+  c17 -# does not exceed the frozen 5,120-token limit.
+  c17 +# does not exceed the frozen 5,376-token limit.
+## Notebook 00b Re-export Stage 00 (Granite).ipynb: cells=3 syntax_errors=0 changed_lines=6
+  c0 -# Re-export verified Stage 00 artifact (Llama run)
+  c0 +# Re-export verified Stage 00 artifact (Granite run)
+  c0 -Attach ONLY the completed Llama Stage 00 dataset (the `stage_00_dataset` folder from Notebook 00) and run on CPU. Publish the four files in `stage_00_provenance_dataset`
+  c0 +Attach ONLY the completed Granite Stage 00 dataset (the `stage_00_dataset` folder from Notebook 00) and run on CPU. Publish the four files in `stage_00_provenance_datase
+  c1 -    stages = ("00",)  # LLAMA RUN: only the new Stage 00 is re-exported
+  c1 +    stages = ("00",)  # GRANITE RUN: only the new Stage 00 is re-exported
+## Notebook 06 Main (Granite).ipynb: cells=19 syntax_errors=0 changed_lines=13
+  c1 -# LLAMA RUN: Llama-3.1-8B-Instruct is gated. Expose the Kaggle secret HF_TOKEN (the same secret Notebook 00 reads) to huggingface_hub.
+  c1 +# GRANITE RUN: ibm-granite/granite-3.3-8b-instruct is public (Apache-2.0, not gated). An HF_TOKEN secret is optional;
+  c1 +# when present it only raises Hugging Face rate limits.
+  c1 -except Exception as error:
+  c1 -    raise RuntimeError("Add the Kaggle secret HF_TOKEN (Add-ons > Secrets, attached to this notebook): the Llama model is gated.") from error
+  c1 +except Exception:
+  c1 +    pass
+  c1 -main00 = stage_input("00")  # LLAMA RUN: the new Stage 00 replaces the Qwen Stage 00 pinned inside Stage 05
+  c1 +main00 = stage_input("00")  # GRANITE RUN: the new Stage 00 replaces the Qwen Stage 00 pinned inside Stage 05
+  c14 -    "0e9e39f249a16976918f6564b8830bc894c89659"
+  c14 +    "51dd4bc2ade4059a6bd87649d68aa11e4fb2529b"
+  c15 -MAX_RENDERED_INPUT_TOKENS = 5120
+  c15 +MAX_RENDERED_INPUT_TOKENS = 5376
+## Notebook 07 Main (Granite).ipynb: cells=15 syntax_errors=0 changed_lines=19
+  c1 -# LLAMA RUN: Llama-3.1-8B-Instruct is gated. Expose the Kaggle secret HF_TOKEN (the same secret Notebook 00 reads) to huggingface_hub.
+  c1 +# GRANITE RUN: ibm-granite/granite-3.3-8b-instruct is public (Apache-2.0, not gated). An HF_TOKEN secret is optional;
+  c1 +# when present it only raises Hugging Face rate limits.
+  c1 -except Exception as error:
+  c1 -    raise RuntimeError("Add the Kaggle secret HF_TOKEN (Add-ons > Secrets, attached to this notebook): the Llama model is gated.") from error
+  c1 +except Exception:
+  c1 +    pass
+  c2 -    if not 0 < int(task["prompt_tokens"]) <= 5120:
+  c2 +    if not 0 < int(task["prompt_tokens"]) <= 5376:
+  c3 -if MODEL_ID != "meta-llama/Llama-3.1-8B-Instruct":
+  c3 +if MODEL_ID != "ibm-granite/granite-3.3-8b-instruct":
+  c3 -if RUNTIME["dtype"] != "float16" or RUNTIME["max_total_tokens"] != 17408:
+  c3 +if RUNTIME["dtype"] != "float16" or RUNTIME["max_total_tokens"] != 17664:
+  c5 -# Load exact pinned Llama model and verify all Stage 06 prompt IDs.
+  c5 +# Load exact pinned Granite model and verify all Stage 06 prompt IDs.
+  c5 -if not any(isinstance(x, int) and x >= 17408 for x in context_candidates):
+  c5 +if not any(isinstance(x, int) and x >= 17664 for x in context_candidates):
+  c6 -if len(development_ids) > 5120 or not development_ids:
+  c6 +if len(development_ids) > 5376 or not development_ids:
+## Notebook 08 Main (Granite).ipynb: cells=23 syntax_errors=0 changed_lines=0
+
+## Notebook 11 Main (Granite).ipynb: cells=5 syntax_errors=0 changed_lines=7
+  c2 -# LLAMA RUN: model_id, model_revision and tokenizer_revision differ from the Qwen pilot by design.
+  c2 -generation_keys = ("decoding", "dtype", "generation", "max_input_tokens", "max_new_tokens",
+  c2 -                   "max_total_tokens")
+  c2 +# GRANITE RUN: model_id, model_revision and tokenizer_revision differ from the Qwen pilot by design.
+  c2 +generation_keys = ("decoding", "dtype", "generation", "max_new_tokens")  # GRANITE RUN: input/total token budgets are tokenizer-specific
+  c3 -    require(x <= 5120 and y <= 5120 and x > 0 and y > 0, "Expected untruncated input within frozen token limit")
+  c3 +    require(x <= 5376 and y <= 5376 and x > 0 and y > 0, "Expected untruncated input within frozen token limit")
+ALL SYNTAX OK

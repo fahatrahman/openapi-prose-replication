@@ -1,0 +1,301 @@
+﻿blind_claim_id,reviewer_id,label,requirement_id,evidence_pointer,reasoning,adjudication_status
+bc_00981a64c381a06e0d22ea48,reviewer_2,supported,req_5aada4e2d8b9a25f3967e1b2,/paths/~1v1alpha~1{name}/patch/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_0280dfbef33cc49a1cf9c940,reviewer_2,supported,req_0c19def6497a3eb55885037f,/paths/~1api~1v2~1GlobalImages/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_053ca74ede047e75a13c9a99,reviewer_2,undocumented_or_unsupported,,,The candidate evidence does not directly establish the asserted response value type.,NOT_REQUIRED
+bc_07e7013ff458e4b3bd2c2a80,reviewer_2,undocumented_or_unsupported,,,The applicable schema evidence does not establish this exact returned value.,NOT_REQUIRED
+bc_0803c82cf9b05954cf9109bd,reviewer_2,undocumented_or_unsupported,,,The applicable OpenAPI evidence does not establish this specific response expectation.,NOT_REQUIRED
+bc_0826e0fd922c15e1d07f75e0,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_08bfc5642eaf676629c5c636,reviewer_2,supported,req_b10796ce33a7c933bca892eb,/paths/~1net~1connections/post/responses/200/content/application~1json/schema/items/properties/last_handshake/properties/last_irreversible_block_num/type,The applicable response schema declares this value as integer.,NOT_REQUIRED
+bc_08ca3d982a8691e77867bde9,reviewer_2,undocumented_or_unsupported,,,The applicable OpenAPI evidence does not establish this specific response expectation.,NOT_REQUIRED
+bc_09ec6be66b49ee61d767cb31,reviewer_2,undocumented_or_unsupported,,,The applicable schema evidence does not establish this exact returned value.,NOT_REQUIRED
+bc_0a2d7ec37ff249deeabe22af,reviewer_2,undocumented_or_unsupported,,,The applicable schema evidence does not establish this exact returned value.,NOT_REQUIRED
+bc_0a8223ee96c50400c606fefc,reviewer_2,supported,req_247332a66577a55c999253bf,/paths/~1volumes/get/responses/200/content/application~1json/schema/properties/Volumes/type,The applicable response schema declares this value as array.,NOT_REQUIRED
+bc_0c5671c14f9a0e2f32aa3107,reviewer_2,supported,req_d50d49d819036c67a58ac6b2,/paths/~1v3beta1~1{name}:restore/post/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_0d41ecb619ae299880d81b37,reviewer_2,supported,req_71319fb8bb63fd505fb3f64c,/paths/~1{format}~1RecentlyChangedMemberships~1{days}/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_0d9bf317cfd74f5c7739e82b,reviewer_2,undocumented_or_unsupported,,,The applicable OpenAPI evidence does not establish this specific response expectation.,NOT_REQUIRED
+bc_0ebaf4c225f2b96318c8df64,reviewer_2,supported,req_f819003d30cf91c7fb652079,/paths/~1v0.1~1orgs~1{org_name}~1testers/get/responses/200/content/application~1json/schema/items/properties/name/type,The applicable response schema declares this value as string.,NOT_REQUIRED
+bc_0f89b65df7fcaef546a315e9,reviewer_2,supported,req_75487588e832ec5b8ead4f75,/paths/~1ticket~1{ticketId}~1messages/get/responses/400,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_0fcdb297ee5f76c54a358d87,reviewer_2,undocumented_or_unsupported,,,The applicable OpenAPI evidence does not establish this specific response expectation.,NOT_REQUIRED
+bc_10392907258758ee2d5f6205,reviewer_2,supported,req_bbac8907c5706a2c560cfee7,/paths/~1sandbox~1bank_transfer~1simulate/post/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_10e0f9b0c82c910cb7b38428,reviewer_2,supported,req_26b283151dca15e81c29c29e,/paths/~1projects~1{project-id}/delete/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_12a9b49e5ed9be359cc1ae46,reviewer_2,supported,req_95e0d9b124c3edf9a0402440,/paths/~1v1~1Services/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_137ee8fafe45251345fc574e,reviewer_2,supported,req_83fabfc38da3929d32c2194c,/paths/~1v2~1apps~1tiers~1instance_sizes~1{slug}/get/responses/500,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_14789d4a36cbde4846583f53,reviewer_2,supported,req_42c176b1f5c25486c2d5bbaa,/components/schemas/AreaModelResults/properties/Count/type,The applicable response schema declares this value as integer.,NOT_REQUIRED
+bc_1705465571968778e1f818b8,reviewer_2,supported,req_5941f886abc31c4d6f21150c,/paths/~1v1~1{parent}~1tensorflowVersions/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_176f3ad9dd1456edbe5e7d5d,reviewer_2,supported,req_f5d969b22d9c89d351c81533,/paths/~1images~1by_id~1{imageId}~1check/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_17d585f13623b8e8d83b2521,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_195b3a7a620c0b8ee5706197,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_1ab8025d58f52f1b1d2f6442,reviewer_2,undocumented_or_unsupported,,,The applicable OpenAPI evidence does not establish this specific response expectation.,NOT_REQUIRED
+bc_1bdddda076fba9b9775ded67,reviewer_2,supported,req_04c473b561a170712597a183,/paths/~1tagmanager~1v1~1accounts~1{accountId}~1containers~1{containerId}/put/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_1d10d15112cd0d70e006dc4f,reviewer_2,supported,req_636f55bee0a9ad79304da633,/paths/~1Employer~1{EmployerId}~1SubContractors~1Tags/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_1dce5d8a33e08264261d14ba,reviewer_2,undocumented_or_unsupported,,,The candidate evidence does not directly establish the asserted response value type.,NOT_REQUIRED
+bc_1ec6806729e15eb7024e0fc1,reviewer_2,supported,req_9c19d384071473e621940c52,/paths/~1v2~1kubernetes~1clusters~1{cluster_id}~1destroy_with_associated_resources/get/responses/404,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_1f1035280850fd964eef78e9,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_20edf71e34d54665e6de9c8d,reviewer_2,undocumented_or_unsupported,,,The candidate evidence does not directly establish the asserted response value type.,NOT_REQUIRED
+bc_212b758b2e65454401c46eb2,reviewer_2,supported,req_9161d2cac430c93da22ac7b3,/paths/~1v2~1tier1~1{shortName}~1diary~1allocations~1{diaryAllocationID}/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_22ddea1ed180cd1b1006fceb,reviewer_2,supported,req_280f3e90a928d12dcee19a2a,/paths/~1net~1connections/post/responses/200/content/application~1json/schema/items/properties/last_handshake/properties/head_num/type,The applicable response schema declares this value as integer.,NOT_REQUIRED
+bc_22f81c531b3ced312e792456,reviewer_2,undocumented_or_unsupported,,,The applicable schema evidence does not establish this exact returned value.,NOT_REQUIRED
+bc_26dd435bd144d22c20310613,reviewer_2,supported,req_62956ad57363c0d36f17c31c,/paths/~1device~1strategy~1tables~1floats~1{tableName}/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_279353c9ac46788a30b8520e,reviewer_2,supported,req_5941f886abc31c4d6f21150c,/paths/~1v1~1{parent}~1tensorflowVersions/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_286ae234642a765c89b135d3,reviewer_2,undocumented_or_unsupported,,,The candidate evidence does not directly establish the asserted response value type.,NOT_REQUIRED
+bc_28d3b6f4e7445b602a66706f,reviewer_2,supported,req_27de5bab716236e78f4c3423,/paths/~1net~1connections/post/responses/200/content/application~1json/schema/items/properties/last_handshake/properties/os/type,The applicable response schema declares this value as string.,NOT_REQUIRED
+bc_2b6ae25f95e6ac59b6c17fd4,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_2b9324db8d1266d063ce6920,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_2c5229df17b71cd231aa0e08,reviewer_2,supported,req_9d04f8ec4020a0321359bf86,/paths/~1getRevisionChangeset/get/responses/200/content/application~1json/schema/properties/message/type,The applicable response schema declares this value as string.,NOT_REQUIRED
+bc_2ca8d3f15009a0810d51ca6e,reviewer_2,undocumented_or_unsupported,,,The candidate evidence does not directly establish the asserted response value type.,NOT_REQUIRED
+bc_2d73bea467f91bf6d3b9564a,reviewer_2,supported,req_d01259763b3ac0bdd439ddb8,/components/schemas/RealtimeServer/properties/ttl/type,The applicable response schema declares this value as integer.,NOT_REQUIRED
+bc_309d2819b60ee36e82cb5ee0,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_326f5f6f512c66d9873db2ea,reviewer_2,supported,req_9a5b740c596935126476c6d4,/paths/~1publishers/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_33b9afcdd9af2f3a1d435ab3,reviewer_2,supported,req_f0ed9fd28bdb4805e8d1f74f,/paths/~1userprofiles~1{profileId}~1advertisers/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_33d4377fcdb7421b53dda9b8,reviewer_2,supported,req_b16c7877d25b2288fdcf759b,/paths/~1cancels/post/responses/400,The operation documents each status code allowed by this assertion.,NOT_REQUIRED
+bc_34db0844fafa335a86b4360c,reviewer_2,undocumented_or_unsupported,,,The applicable schema evidence does not establish this exact returned value.,NOT_REQUIRED
+bc_3725b1de846a6603951a93ec,reviewer_2,supported,req_030e17f22e817f042085fe33,/paths/~1v2~1scim~12.0~1Users/post/responses/403,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_3856d1563a45e5a5aa09c49f,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_39a9f0e0dadbe2252ccd3373,reviewer_2,supported,req_d270f1b72fd3614945dcd656,/paths/~1prod~1inputDevices/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_39c293c3710a42ecf15a3b35,reviewer_2,supported,req_a29a914dfce3b2d4a7e39daf,/paths/~1v2~1{parent}~1attachments/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_3b025bc8cee9e4c7e18fbb20,reviewer_2,supported,req_22d4ba171591a514e682a6e4,/paths/~1getWorldTemplateBody/post/responses/481,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_3c2a3fe2adab4fada18465d8,reviewer_2,supported,req_c7f5a1a2cb52824e0e12a260,/paths/~1v1~1configurations~1{configuration-id}~1revisions~1{configuration-revision}/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_3c9dab8ecbf85ef1e0d029f5,reviewer_2,supported,req_0760ca6f4a4b66cc4ce4dea8,/components/schemas/NHInterior/properties/item_set/type,The applicable response schema declares this value as string.,NOT_REQUIRED
+bc_3cefe873ebb05878120fbcc2,reviewer_2,undocumented_or_unsupported,,,The candidate evidence does not directly establish the asserted response value type.,NOT_REQUIRED
+bc_3d27b19caa5804f97a973731,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_3ebe5fc0df03ffc8f227c957,reviewer_2,undocumented_or_unsupported,,,The candidate evidence does not directly establish the asserted response value type.,NOT_REQUIRED
+bc_3f209686cf732aa0c06119a9,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_3f522c35a548e0b23d94fd99,reviewer_2,undocumented_or_unsupported,,,The candidate evidence does not directly establish the asserted response value type.,NOT_REQUIRED
+bc_41f0b370a9afd2b9ef45a6b8,reviewer_2,supported,req_a1aa0177545aeedc0f8aafe0,/paths/~1sentences/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_4204f8ce4dbdbcc6df00f978,reviewer_2,supported,req_3db800bb8e0584cbcc6fdca0,/paths/~1v1~1appPreviews~1{id}/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_432b9ce1df75bfe389fc6e80,reviewer_2,undocumented_or_unsupported,,,The documented response for this scenario does not establish that the status differs from 200.,NOT_REQUIRED
+bc_43cb8b026ed5a1bd581cb984,reviewer_2,supported,req_0bd330974c97800959b41bee,/paths/~1Report~1HOLBAL~1run/get/responses/400/content/application~1json,The applicable response content declares application/json for the error responses asserted in this test.,NOT_REQUIRED
+bc_442f07fe0a523da04e13c0f7,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_4435f6bcc11eca78d749ff71,reviewer_2,supported,req_906e223d20ba329eb33a213e,/components/schemas/ListOperationsResponse/properties/operations/type,The applicable response schema declares this value as array.,NOT_REQUIRED
+bc_44632002c7a50712bc36fb4e,reviewer_2,supported,req_b5344a5cb1fc3826fd74e043,/paths/~1hooks.json/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_4506cf95bf1f2b803aec3aa6,reviewer_2,undocumented_or_unsupported,,,The candidate evidence does not directly establish the asserted response value type.,NOT_REQUIRED
+bc_4509c172cdcf7d3dc048f0f4,reviewer_2,undocumented_or_unsupported,,,The applicable OpenAPI evidence does not establish this specific response expectation.,NOT_REQUIRED
+bc_452302f36100c647a8b87a62,reviewer_2,supported,req_ea50194fb98e8f7a645ec14e,/paths/~1resources~1tags~1{id}~1media.{format}/get/responses/500,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_457a3ddf8804bf04b00dc729,reviewer_2,undocumented_or_unsupported,,,The candidate evidence does not directly establish the asserted response value type.,NOT_REQUIRED
+bc_474ed7c7365304ecc9546c68,reviewer_2,undocumented_or_unsupported,,,The candidate evidence does not directly establish the asserted response value type.,NOT_REQUIRED
+bc_47eaadeb9f70df03927de8d9,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_484fa6934a6f3ddff1968609,reviewer_2,supported,req_0232547390240b70771de849,/paths/~1globalpageload/get/responses/405,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_48dfef33e3f2691aca6204bb,reviewer_2,supported,req_62956ad57363c0d36f17c31c,/paths/~1device~1strategy~1tables~1floats~1{tableName}/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_48fae303276d1a27fce37e4e,reviewer_2,supported,req_f1597f26db60600f0411062d,/paths/~1resources~1sources.json/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_4a20b96e90ad4a636fe6b2df,reviewer_2,undocumented_or_unsupported,,,The applicable OpenAPI evidence does not establish this specific response expectation.,NOT_REQUIRED
+bc_4aedd632441cef7cfbef615d,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_4bf690eb4a531917c8637737,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_4d9522ea9dd2a13604cf3fcf,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_4e1cd517c2249ccb569296d1,reviewer_2,supported,req_0c16c3214c8e377f9cc9b189,/components/schemas/Comment/type,The response schema defines each Comment value as an object.,NOT_REQUIRED
+bc_4ea2f6418ff809a3cb65f53a,reviewer_2,supported,req_015d8d495b18cc71cfccb91c,/paths/~1v1~1{name}:setAddonEnablement/post/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_4f59706bf204d9cb5cf6d7d3,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_4f8ab048aa996d70cd099255,reviewer_2,undocumented_or_unsupported,,,The applicable OpenAPI evidence does not establish this specific response expectation.,NOT_REQUIRED
+bc_506bec817e088731d4f63fc8,reviewer_2,supported,req_fd680feb9d98c8fa721db733,/paths/~1v1~1{name}/delete/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_510a9256b1d9ef947cc710c4,reviewer_2,supported,req_a5c058832d6d38b942f853c7,/paths/~1tasks~1{id}~1logs/get/responses/500,The operation documents each status code allowed by this assertion.,NOT_REQUIRED
+bc_5134340fe882be35f7270825,reviewer_2,supported,req_5303c695a35b4651512aec99,/paths/~1net~1connections/post/responses/200/content/application~1json/schema/items/properties/last_handshake/properties/generation/type,The applicable response schema declares this value as integer.,NOT_REQUIRED
+bc_5148d80b48e498e0afb95ed6,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_52504857397c4d33d9ca36cf,reviewer_2,supported,req_e39c38426530cbbe4e2139b4,/paths/~1v1beta1~1{parent}~1nasTrialDetails/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_529d00996cda18e68be1850d,reviewer_2,supported,req_0c19def6497a3eb55885037f,/paths/~1api~1v2~1GlobalImages/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_53907afdd2f36d1c24e11c2c,reviewer_2,undocumented_or_unsupported,,,The applicable OpenAPI evidence does not establish this specific response expectation.,NOT_REQUIRED
+bc_53cb9c0e70fb3ecf2d7ca97f,reviewer_2,supported,req_27750889b69de11d48df3571,/paths/~1v1~1asn~1status~1all/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_569d032cb2221b7bbc5ce404,reviewer_2,supported,req_76eecb3099a90e95116ada49,/paths/~1nearest_place/get/responses/429,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_56b1fa13685e420e7f93fa85,reviewer_2,supported,req_f1597f26db60600f0411062d,/paths/~1resources~1sources.json/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_572426ca6833f2ad8fa1d599,reviewer_2,supported,req_0f0b7ab5c4d132c2ddd806aa,/components/schemas/Operation/properties/name/type,The applicable response schema declares this value as string.,NOT_REQUIRED
+bc_57b9b111b2e47264a4d33102,reviewer_2,supported,req_5900b95b0551490449361f0b,/paths/~1sip-media-applications~1{sipMediaApplicationId}~1logging-configuration/get/responses/481,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_58ba68e7327b0fe07d8e1a6b,reviewer_2,undocumented_or_unsupported,,,The candidate evidence does not directly establish the asserted response value type.,NOT_REQUIRED
+bc_58c5ce34b6065ef799c82ed9,reviewer_2,supported,req_6a9d0a2d62b04ccb26b3cbf5,/components/schemas/Operation/properties/response/type,The applicable response schema declares this value as object.,NOT_REQUIRED
+bc_59fdefa762f20223c369b7d8,reviewer_2,supported,req_015792ddb2143063767d52cc,/components/schemas/Exception/properties/code/nullable,"The applicable schema marks the exception code as nullable, which permits a null value.",NOT_REQUIRED
+bc_5a339106008095718c540d95,reviewer_2,supported,req_d514686b8ff2d4f08777452a,/paths/~1nh~1interior~1{item}/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_5b13c60dfc3cc57083f66b0e,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_5b355eedb14f1daa370481c7,reviewer_2,supported,req_ca8c58923fc428b98cf14bdc,/components/schemas/ListTensorFlowVersionsResponse/properties/nextPageToken/type,The applicable response schema declares this value as string.,NOT_REQUIRED
+bc_5baa4294d5d20d15338e97eb,reviewer_2,supported,req_247332a66577a55c999253bf,/paths/~1volumes/get/responses/200/content/application~1json/schema/properties/Volumes/type,The applicable response schema declares this value as array.,NOT_REQUIRED
+bc_5bbcefa12af191df28cd34b5,reviewer_2,undocumented_or_unsupported,,,The applicable schema evidence does not establish this exact returned value.,NOT_REQUIRED
+bc_5bea20c7d18fe847c711bffc,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_5bfc63e97255e2055afc428c,reviewer_2,supported,req_920b28cefbcf8d19d03b985a,/paths/~1v2~1scim~12.0~1Users/post/responses/409,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_5d5b6b6ea0a3579d0dbaadd3,reviewer_2,supported,req_f9c45d814e488a4293aaf9db,/paths/~1key~1{PK}/get/responses/404,The operation documents an error response with a status code of 400 or higher for this error scenario.,NOT_REQUIRED
+bc_5d9f7076c78a73d5612cf3b4,reviewer_2,undocumented_or_unsupported,,,The applicable schema evidence does not establish this exact returned value.,NOT_REQUIRED
+bc_5e8fe1cfb3b6109b7c88a666,reviewer_2,supported,req_9da9098f38c6b497c08f842d,/paths/~1my~1ships~1{shipSymbol}~1scan~1ships/post/responses/201,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_5e9e6118c53cde03d291555a,reviewer_2,undocumented_or_unsupported,,,The applicable OpenAPI evidence does not establish this specific response expectation.,NOT_REQUIRED
+bc_6167f5e0208f2de5521ff9a0,reviewer_2,undocumented_or_unsupported,,,The applicable OpenAPI evidence does not establish this specific response expectation.,NOT_REQUIRED
+bc_62bca42bcb46decdef096b42,reviewer_2,undocumented_or_unsupported,,,The candidate evidence does not directly establish the asserted response value type.,NOT_REQUIRED
+bc_631958cdfe547016d1e2ff2f,reviewer_2,supported,req_77086d7eda41fcd5640c39ae,/paths/~1v1~1Secrets~1{Key}/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_63656b8903c504e5ebbca7cd,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_637216f6a0f1cd0427236e5a,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_63c0f71e31451e6eb6d0239f,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_63f714905dca9a51415f601b,reviewer_2,undocumented_or_unsupported,,,The applicable OpenAPI evidence does not establish this specific response expectation.,NOT_REQUIRED
+bc_64b14365c1ff3e97d935c842,reviewer_2,supported,req_f988bb62d0eceb6e1ae89e69,/paths/~1v1~1appPreviews~1{id}/get/responses/404,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_655ff543476bd0c02af9fa89,reviewer_2,supported,req_3f0468b36a91eb4108e064e2,/paths/~1v1~1origin_token~1new/post/responses/422,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_666688818d614045882fe6b1,reviewer_2,supported,req_acf9ae7936a15a361fec8430,/paths/~1net~1connections/post/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_66e0c7e3f8ec2dd7bbaee044,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_66ea84e80b1d02e0939f2470,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_67a43d950506452d0b4ccf02,reviewer_2,supported,req_7336864ae2a3e392b8ca0fe3,/components/schemas/Organization/properties/expiration_scans/type,The applicable response schema declares this value as integer.,NOT_REQUIRED
+bc_67f586b68f4b17c22ad6ffdd,reviewer_2,undocumented_or_unsupported,,,The candidate evidence does not directly establish the asserted response value type.,NOT_REQUIRED
+bc_686b06d256af2628a7d60b14,reviewer_2,undocumented_or_unsupported,,,The candidate evidence does not directly establish the asserted response value type.,NOT_REQUIRED
+bc_69521aa4a2fd7d34c90dde99,reviewer_2,supported,req_ffa40fccedf761cfef30a6c1,/paths/~1resources~1sources.json/get/responses/400,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_697045a58cbafa2d70653aa6,reviewer_2,undocumented_or_unsupported,,,The applicable OpenAPI evidence does not establish this specific response expectation.,NOT_REQUIRED
+bc_69c502a0e67944030c28fc84,reviewer_2,undocumented_or_unsupported,,,The documented response for this scenario does not establish that the status differs from 402.,NOT_REQUIRED
+bc_69f6001312b18a84cb8f57d5,reviewer_2,supported,req_c35999941134e56480fc720c,/paths/~1v1~1{parent}~1hcxActivationKeys/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_6bc5bdfd1b40501ca56184d2,reviewer_2,supported,req_f9c45d814e488a4293aaf9db,/paths/~1key~1{PK}/get/responses/404,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_6f7671a09570e6755d89cb7c,reviewer_2,undocumented_or_unsupported,,,The candidate evidence does not directly establish the asserted response value type.,NOT_REQUIRED
+bc_707fd1be0c801e749413a918,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_70cebe6d1d1aa4a96ad5ee03,reviewer_2,supported,req_aad8c9bd4b3fd1fc6ba6fb4c,/paths/~1v4~1{name}:clearAssociation/post/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_714c969797e9d672fa4903af,reviewer_2,supported,req_9bf81a484b602748e828fc37,/paths/~1Employer~1{EmployerId}~1Employee~1{EmployeeId}~1Tag~1{TagId}/get/responses/401,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_71f2a7446a602975201f319b,reviewer_2,undocumented_or_unsupported,,,The candidate evidence does not directly establish the asserted response value type.,NOT_REQUIRED
+bc_7491c3b4a9dbd6ef51ba8487,reviewer_2,undocumented_or_unsupported,,,The applicable OpenAPI evidence does not establish this specific response expectation.,NOT_REQUIRED
+bc_74d4d33dba94396edc1844b8,reviewer_2,undocumented_or_unsupported,,,The candidate evidence does not directly establish the asserted response value type.,NOT_REQUIRED
+bc_758002299f46573d770ff384,reviewer_2,supported,req_cf08e7ce14bc391a0b6ced50,/paths/~1cancels/post/responses/422,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_774972f4a519fca55365dae6,reviewer_2,supported,req_38e2e1f40e8a88eb65c71778,/components/schemas/Location/properties/metadata/type,The applicable response schema declares this value as object.,NOT_REQUIRED
+bc_77a58d05ba9fa53ec2e1297b,reviewer_2,supported,req_2c665cbeaa65a3c569ff3dde,/paths/~1androidenterprise~1v1~1enterprises~1{enterpriseId}~1storeLayout/put/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_78cf58c18bbb9e3dac7bed03,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_7988bd4343f33c89c50d768f,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_7a419eb821f262d66c306b73,reviewer_2,supported,req_859ced8c12a7ba9cffbeafb7,/paths/~1user~1DisassociateUser/post/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_7b24c202710932782a9da1ea,reviewer_2,undocumented_or_unsupported,,,The applicable schema evidence does not establish this exact returned value.,NOT_REQUIRED
+bc_7b8188946ad963e1ec6b0694,reviewer_2,undocumented_or_unsupported,,,The applicable OpenAPI evidence does not establish this specific response expectation.,NOT_REQUIRED
+bc_7d274b4222eccf0ced9ec29a,reviewer_2,undocumented_or_unsupported,,,The applicable OpenAPI evidence does not establish this specific response expectation.,NOT_REQUIRED
+bc_7d950c5ad4a581f8a53b064e,reviewer_2,undocumented_or_unsupported,,,The OpenAPI response documentation does not establish the asserted status code for this operation.,NOT_REQUIRED
+bc_7eb0898e9433c4bb1ffb9953,reviewer_2,undocumented_or_unsupported,,,The candidate evidence does not directly establish the asserted response value type.,NOT_REQUIRED
+bc_804deeff977d565cfdd8c236,reviewer_2,undocumented_or_unsupported,,,The candidate evidence does not directly establish the asserted response value type.,NOT_REQUIRED
+bc_80d756174d14babc1684f27f,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_812586a9de2cb0fd2951f53c,reviewer_2,undocumented_or_unsupported,,,The applicable OpenAPI evidence does not establish this specific response expectation.,NOT_REQUIRED
+bc_8215886e2fb72e012afd79c5,reviewer_2,supported,req_c499ff6242c11b60c69dc326,/paths/~1v1~1data~1{path}/get/responses/400,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_82c1af32198b7c3320a3e90b,reviewer_2,supported,req_15592ed44ec2f169e9d7600e,/paths/~1v2beta1~1accounts~1{accountId}~1clients~1{clientAccountId}~1users/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_84b2cdf25b3a3f349a520331,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_86ece3de00852c160a9e8c0f,reviewer_2,supported,req_e4a6fba3ecae4bbe11553e78,/components/schemas/Rights/type,The applicable response schema declares this value as object.,NOT_REQUIRED
+bc_87425a7920a053727eb8dce2,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_87737145c3b19564b07b7de6,reviewer_2,undocumented_or_unsupported,,,The candidate evidence does not directly establish the asserted response value type.,NOT_REQUIRED
+bc_879d09dc1583e1ef2dff41e3,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_884f3604de0c6ca94e820ab0,reviewer_2,undocumented_or_unsupported,,,The OpenAPI response documentation does not establish the asserted status code for this operation.,NOT_REQUIRED
+bc_885c58730e6088ddfde2ed06,reviewer_2,supported,req_acc85f0fb4260982b6d6b37a,/components/schemas/SupportedLanguage/properties/languageCode/type,The applicable response schema declares this value as string.,NOT_REQUIRED
+bc_890906086a04d5e388e62a1d,reviewer_2,supported,req_08133fde181170df9d586289,/paths/~1v3~1partners~1{partnerId}/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_8953292dbd9e5b99041592ac,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_8e24e1761e09cd8a5ad72d19,reviewer_2,undocumented_or_unsupported,,,The applicable OpenAPI evidence does not establish this specific response expectation.,NOT_REQUIRED
+bc_8f0794f55144396d70ec04ce,reviewer_2,supported,req_2663a52b4424564fb3d8747c,/paths/~1globalpageload/get/responses/400,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_8f602b5374c655f458c3a714,reviewer_2,undocumented_or_unsupported,,,The applicable schema evidence does not establish this exact returned value.,NOT_REQUIRED
+bc_90e06f25c56fc7da351d3912,reviewer_2,undocumented_or_unsupported,,,The candidate evidence does not directly establish the asserted response value type.,NOT_REQUIRED
+bc_92a0e0ab78be3f009461d104,reviewer_2,supported,req_8f43c1db23ab90171eb02e3f,/paths/~1net~1connections/post/responses/200/content/application~1json/schema/items/properties/last_handshake/properties/p2p_address/type,The applicable response schema declares this value as string.,NOT_REQUIRED
+bc_93392faa0a7df95199619477,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_943bf1b2fe80ce0df0d05172,reviewer_2,undocumented_or_unsupported,,,The documented response for this scenario does not establish that the status differs from 200.,NOT_REQUIRED
+bc_949c78aa10b15b3644ff7b89,reviewer_2,undocumented_or_unsupported,,,The candidate evidence does not directly establish the asserted response value type.,NOT_REQUIRED
+bc_9545da7cc1d84891b755f23f,reviewer_2,undocumented_or_unsupported,,,The applicable OpenAPI evidence does not establish this specific response expectation.,NOT_REQUIRED
+bc_956c8ed11e15960a511a8d04,reviewer_2,supported,req_eab5ce859e187527e2ae411a,/paths/~1apps~1{app_id}~1queues/get/responses/404,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_97d98b58170cbb232006461c,reviewer_2,supported,req_abf397ee98ef145f8c6ba5a6,/paths/~1v2~1apps~1tiers~1instance_sizes/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_9991a569396d5f3af9b94097,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_9a3c73d77d5ae87e95ba07ef,reviewer_2,supported,req_3e6d288b9f0ea93e60ffe2ba,/paths/~1v1~1{name}~1operations/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_9bc0b65fad80ae7455efde78,reviewer_2,supported,req_cf1940f1facd9524d98fac08,/components/schemas/inline_response_400/properties/errors/type,The applicable response schema declares this value as array.,NOT_REQUIRED
+bc_9cec0b177446bca410e51d05,reviewer_2,supported,req_a3dcc9d60d5cfdb2abe4a5e6,/paths/~1findingsfilters/post/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_9d7a425ced904e6673fc1a4b,reviewer_2,undocumented_or_unsupported,,,The applicable OpenAPI evidence does not establish this specific response expectation.,NOT_REQUIRED
+bc_a0c3f6594f3a6408974ad0ea,reviewer_2,undocumented_or_unsupported,,,The applicable OpenAPI evidence does not establish this specific response expectation.,NOT_REQUIRED
+bc_a1898785e6834357cd9b4626,reviewer_2,undocumented_or_unsupported,,,The applicable OpenAPI evidence does not establish this specific response expectation.,NOT_REQUIRED
+bc_a3ba4774501a577a3f53173e,reviewer_2,supported,req_9ec2deb5eb1f9f27b8558353,/components/schemas/ServiceBinding/properties/labels/type,The applicable response schema declares this value as object.,NOT_REQUIRED
+bc_a6a1f0e88664db942699e860,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_a6b3f88836de22292e820004,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_a714cec2aaaf3a282a20d209,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_a7671ad6d1c4e119a7348604,reviewer_2,undocumented_or_unsupported,,,The candidate evidence does not directly establish the asserted response value type.,NOT_REQUIRED
+bc_a789edab578455a15d1a9715,reviewer_2,undocumented_or_unsupported,,,The candidate evidence does not directly establish the asserted response value type.,NOT_REQUIRED
+bc_a7fa0d3f1a5445a9b32aaab8,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_a83428894a897750dd256e6c,reviewer_2,undocumented_or_unsupported,,,The applicable schema evidence does not establish this exact returned value.,NOT_REQUIRED
+bc_a991c382e249f56f6d64f91a,reviewer_2,supported,req_04241ae03068126a04e838fe,/paths/~1storedPaymentMethods/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_abc459502c2c0834603c2cad,reviewer_2,undocumented_or_unsupported,,,The applicable schema evidence does not establish this exact returned value.,NOT_REQUIRED
+bc_ad4dd994ca7186a7eecb8f88,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_ad53afe54574dbc79c14bc4b,reviewer_2,supported,req_b362541699b5a295d37c2183,/paths/~1servers~1{id}~1metrics/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_ade7b6d1c08743014f1b6fab,reviewer_2,supported,req_9019542c8fcb0f9a95df00b9,/paths/~1workflowstep/post/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_ae677c4aa9ef446c912185f0,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_af77fe28f5d89cf610e75d85,reviewer_2,supported,req_885989ebdc33f8bf22e7b3ca,/components/schemas/Publisher/properties/image_background/type,The applicable response schema declares this value as string.,NOT_REQUIRED
+bc_affe811c9e6b23e0ac18772d,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_b11ccb2322b11d13e960fd56,reviewer_2,undocumented_or_unsupported,,,The applicable schema evidence does not establish this exact returned value.,NOT_REQUIRED
+bc_b1a35d5317969ff9b885b4f7,reviewer_2,supported,req_885989ebdc33f8bf22e7b3ca,/components/schemas/Publisher/properties/image_background/type,The applicable response schema declares this value as string.,NOT_REQUIRED
+bc_b26e34eaa4a8b5f09ed951e5,reviewer_2,supported,req_58a391a3d79c8996db7cd252,/paths/~1tasks~1{id}~1logs/get/responses/101,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_b3b2c1c21cdc25f45f000eb3,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_b45492de73ecd6a64f4d3fe2,reviewer_2,supported,req_d50d49d819036c67a58ac6b2,/paths/~1v3beta1~1{name}:restore/post/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_b51a84dc43857df97f0e5fa9,reviewer_2,undocumented_or_unsupported,,,The applicable OpenAPI evidence does not establish this specific response expectation.,NOT_REQUIRED
+bc_b585a5ed96b7b5a1ff3ddc06,reviewer_2,supported,req_a1aa0177545aeedc0f8aafe0,/paths/~1sentences/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_b5d6c2ccbf3e129744400efc,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_b6313f36ed3b0192e2171600,reviewer_2,supported,req_36bc49f440b7c55e1c4d0084,/paths/~1Report~1HOLBAL~1run/get/responses/400,The operation documents each status code allowed by this assertion.,NOT_REQUIRED
+bc_b7e89f22d632470632984e60,reviewer_2,supported,req_4c76aebce3d00086cfc10468,/paths/~1v0.1~1apps~1{owner_name}~1{app_name}~1devices~1block_logs/put/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_b80b16030a139a94a84e7ef0,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_b98f151590c5efdbae5398a3,reviewer_2,supported,req_89a89bd10e4320f4f6a55854,/paths/~1userprofiles~1{profileId}~1placements~1generatetags/post/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_bb34e3b5ee249d02596e6626,reviewer_2,supported,req_0adf7bf6b24797e7b560de9f,/paths/~1api~1v1~1users~1{UserId}~1activation/post/responses/484,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_bb56738bc9f2b86b5f3e0bd5,reviewer_2,supported,req_5b2f69f55b83ae2a9d3aa7b1,/paths/~1volumes/get/responses/200/content/application~1json/schema/properties/Warnings/type,The applicable response schema declares this value as array.,NOT_REQUIRED
+bc_bb91f9d0c9c2e91505608b81,reviewer_2,undocumented_or_unsupported,,,The candidate evidence does not directly establish the asserted response value type.,NOT_REQUIRED
+bc_bb9b2926f2fff828e259881d,reviewer_2,supported,req_36bc49f440b7c55e1c4d0084,/paths/~1Report~1HOLBAL~1run/get/responses/400,The operation documents each status code allowed by this assertion.,NOT_REQUIRED
+bc_bdb40f36dc9b4c5d71f10d6e,reviewer_2,supported,req_b10796ce33a7c933bca892eb,/paths/~1net~1connections/post/responses/200/content/application~1json/schema/items/properties/last_handshake/properties/last_irreversible_block_num/type,The response schema declares last_irreversible_block_num as an integer.,NOT_REQUIRED
+bc_bdcd8751f82b6b2799f2857f,reviewer_2,undocumented_or_unsupported,,,The candidate evidence does not directly establish the asserted response value type.,NOT_REQUIRED
+bc_be93e10c10d7efcb63c9a0a8,reviewer_2,supported,req_7916b5bb9fc6a2be5ab301b4,/paths/~1v2~1{parent}~1nfsShares/post/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_c065d24c3d8820237259a195,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_c0c8bbf1a013291455008fda,reviewer_2,undocumented_or_unsupported,,,The candidate evidence does not directly establish the asserted response value type.,NOT_REQUIRED
+bc_c1606cc43c378854a5d164fd,reviewer_2,supported,req_27de5bab716236e78f4c3423,/paths/~1net~1connections/post/responses/200/content/application~1json/schema/items/properties/last_handshake/properties/os/type,The response schema declares the operating-system field as a string.,NOT_REQUIRED
+bc_c1aabc0d3cd40f053b5f0621,reviewer_2,supported,req_ec15f47b92c875f56ee175d7,/paths/~1Employer~1{EmployerId}~1Pension~1{PensionId}/patch/responses/400,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_c20e8f89c05fbac98f3c67be,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_c55b7b536c62b67632f15e7e,reviewer_2,undocumented_or_unsupported,,,The applicable OpenAPI evidence does not establish this specific response expectation.,NOT_REQUIRED
+bc_c5e34160cdf7e62149fca449,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_c613403c7b192b4ada52d013,reviewer_2,undocumented_or_unsupported,,,"The schema does not set a positive minimum for this collection, so it may be empty.",NOT_REQUIRED
+bc_c632a5859f76a08077948fb4,reviewer_2,undocumented_or_unsupported,,,The candidate evidence does not directly establish the asserted response value type.,NOT_REQUIRED
+bc_c749074ea651188e9b9f5801,reviewer_2,supported,req_e33fcd4dc76a62ef6e587454,/paths/~1v2~1{parent}:generateServiceIdentity/post/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_c7a757a80186be048ebc35ec,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_caf3c2a1c3926683cd34aa98,reviewer_2,supported,req_2d9f5c3dfeb4d85114b7407b,/paths/~1servers~1{id}~1metrics/get/responses/200/content/application~1json/schema/properties/metrics/properties/time_series/additionalProperties/required,The applicable response schema marks `values` as required.,NOT_REQUIRED
+bc_cb41d75d1c74d3cd66dc2ee7,reviewer_2,undocumented_or_unsupported,,,The OpenAPI response documentation does not establish the asserted status code for this operation.,NOT_REQUIRED
+bc_ccb49857cb0c24dab5baeffa,reviewer_2,supported,req_c68547bf839cca484fde2781,/paths/~1api~1Search~1Paragraph~1{reference}/get/responses/400,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_ccf81970235d0f7712e6ab92,reviewer_2,supported,req_d8b9081e614c5d0a36a618c1,/paths/~1ticket~1{ticketId}~1messages/get/responses/401,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_cd34d01758dc46e885dcc7cc,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_cda1287d2e1dbdc50b4799b2,reviewer_2,supported,req_0f2c9ff4329db65c10ba39e6,/paths/~1{format}~1Competitions/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_cde1aeb441698c2f8ef0bed0,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_cefa6404a5e0a37daaccb5b9,reviewer_2,supported,req_1b4c7a55787afe24cfc4d007,/paths/~1reverse/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_d027ec1c38566082fd021ab5,reviewer_2,undocumented_or_unsupported,,,The candidate evidence does not directly establish the asserted response value type.,NOT_REQUIRED
+bc_d047426e4cada9af3639501b,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_d096027ae2dee7b7422af30b,reviewer_2,undocumented_or_unsupported,,,The candidate evidence does not directly establish the asserted response value type.,NOT_REQUIRED
+bc_d16ca31dece1430db475dbf8,reviewer_2,undocumented_or_unsupported,,,The applicable OpenAPI evidence does not establish this specific response expectation.,NOT_REQUIRED
+bc_d1c15ff82e693be6aa9e9383,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_d2780c98dcbdef9194406c10,reviewer_2,undocumented_or_unsupported,,,"The schema does not set a positive minimum for this collection, so it may be empty.",NOT_REQUIRED
+bc_d2a06e024b1226d6f6f36507,reviewer_2,undocumented_or_unsupported,,,"The schema does not set a positive minimum for this collection, so it may be empty.",NOT_REQUIRED
+bc_d2f4a9b04d6301e280c93cdb,reviewer_2,undocumented_or_unsupported,,,The applicable OpenAPI evidence does not establish this specific response expectation.,NOT_REQUIRED
+bc_d3e06c37deba06dccc5db823,reviewer_2,undocumented_or_unsupported,,,The applicable schema evidence does not establish this exact returned value.,NOT_REQUIRED
+bc_d7202db66d4222de0ab93a50,reviewer_2,supported,req_52f92303f435236c993ea949,/paths/~1nearest_place/get/responses/422,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_d866c47ad6cbaabfc3cdaba6,reviewer_2,supported,req_0f7f8a551acdf75c4723b551,/components/schemas/Status/properties/message/type,The applicable response schema declares this value as string.,NOT_REQUIRED
+bc_d9371590f87b0b6e0af9d9fa,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_d96152b512b3995a9d38904e,reviewer_2,undocumented_or_unsupported,,,"The schema does not set a positive minimum for this collection, so it may be empty.",NOT_REQUIRED
+bc_dacb1bbe602fd04dc21e9996,reviewer_2,undocumented_or_unsupported,,,The OpenAPI response documentation does not establish the asserted status code for this operation.,NOT_REQUIRED
+bc_db20e502596aedfb33e5a663,reviewer_2,undocumented_or_unsupported,,,The candidate evidence does not directly establish the asserted response value type.,NOT_REQUIRED
+bc_dbcce23f1406ece5db2b842b,reviewer_2,undocumented_or_unsupported,,,The applicable OpenAPI evidence does not establish this specific response expectation.,NOT_REQUIRED
+bc_dd14eedc88aa660c6c9d52c9,reviewer_2,undocumented_or_unsupported,,,The applicable schema evidence does not establish this exact returned value.,NOT_REQUIRED
+bc_dd8f1633e4d6b6aba20563b3,reviewer_2,supported,req_67a6347f6934a0433636ecb6,/components/schemas/NHInterior/properties/availability/items/type,The response schema defines availability entries as objects.,NOT_REQUIRED
+bc_deac7f6a36ebffa26cc364e2,reviewer_2,supported,req_3c03e98c19909b6fa541801d,/paths/~1artifacts~1{artifactId}~1versions/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_deef5ae02267d3112fd3f763,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_dfd37c977834e2143e8603d0,reviewer_2,supported,req_ffa40fccedf761cfef30a6c1,/paths/~1resources~1sources.json/get/responses/400,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_e1a6109b80494c0f28ebd234,reviewer_2,undocumented_or_unsupported,,,The applicable schema evidence does not establish this exact returned value.,NOT_REQUIRED
+bc_e30ba3d19cedfc36eb343146,reviewer_2,supported,req_a2108fa2e3268136820ec5d1,/components/schemas/NHInterior/properties/availability/type,The applicable response schema declares this value as array.,NOT_REQUIRED
+bc_e47d1c1235820f4cbfcdbf76,reviewer_2,supported,req_9a5b740c596935126476c6d4,/paths/~1publishers/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_e58e45d7a14b9fc155d8c9d5,reviewer_2,undocumented_or_unsupported,,,The candidate evidence does not directly establish the asserted response value type.,NOT_REQUIRED
+bc_e77fd3b9aa2de42573df6528,reviewer_2,supported,req_b362541699b5a295d37c2183,/paths/~1servers~1{id}~1metrics/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_e7b9e4cd47ad74e8b1ddb5fb,reviewer_2,supported,req_e5ccd5e954ebe252a541abc1,/components/schemas/Organization/properties/service_count_udp/type,The applicable response schema declares this value as integer.,NOT_REQUIRED
+bc_e7d6ec70887bd03d73fe7d34,reviewer_2,supported,req_6a48c8f2e140bdeca9464025,/components/schemas/Attachment/properties/name/type,The applicable response schema declares this value as string.,NOT_REQUIRED
+bc_e882a3c2d83b714eceeff7cf,reviewer_2,supported,req_b03418d5d754d327737727d1,/components/schemas/NHInterior/properties/buy/items/type,The response schema defines buy entries as objects.,NOT_REQUIRED
+bc_eaf07974103ebc594da2cf64,reviewer_2,undocumented_or_unsupported,,,The applicable schema evidence does not establish this exact returned value.,NOT_REQUIRED
+bc_eb300b607e046a057a9de3c8,reviewer_2,supported,req_696dffa95a744b29996a858d,/components/schemas/error/type,The applicable error schema defines the response value as an object.,NOT_REQUIRED
+bc_eb748570d362cd54aa9b7bfd,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_eb8a2fa18ebe1c5bf97b8934,reviewer_2,supported,req_40caf7148f08202aab5432d2,/paths/~1{format}~1ActiveMemberships/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_ebbffad94d7c0e9e853a02c4,reviewer_2,undocumented_or_unsupported,,,The applicable OpenAPI evidence does not establish this specific response expectation.,NOT_REQUIRED
+bc_ebc1e8e8f925fcf86d2db34c,reviewer_2,undocumented_or_unsupported,,,The candidate evidence does not directly establish the asserted response value type.,NOT_REQUIRED
+bc_ed5b24545ad3681b9c64cb17,reviewer_2,supported,req_c04e2d5ae4a921aeeabb5bfc,/components/schemas/Batch/properties/id/type,The applicable response schema declares this value as string.,NOT_REQUIRED
+bc_ee6530b8a15ce6de0532cdeb,reviewer_2,undocumented_or_unsupported,,,The applicable OpenAPI evidence does not establish this specific response expectation.,NOT_REQUIRED
+bc_ef3da0e3321d572356e1bca5,reviewer_2,supported,req_94724f753857bcc980d9a885,/components/schemas/ListQueriesResponse/properties/queries/type,The applicable response schema declares this value as array.,NOT_REQUIRED
+bc_ef4dbe692a1293f95ebd0bc6,reviewer_2,undocumented_or_unsupported,,,The applicable OpenAPI evidence does not establish this specific response expectation.,NOT_REQUIRED
+bc_effd61a47ceff8ab69c01408,reviewer_2,undocumented_or_unsupported,,,The candidate evidence does not directly establish the asserted response value type.,NOT_REQUIRED
+bc_f13ef0cd6435f5935330dcdb,reviewer_2,supported,req_0e751132776d192a287c9282,/paths/~1erc20~1{address}/options/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_f22e858755affa970aab1a22,reviewer_2,undocumented_or_unsupported,,,The applicable OpenAPI evidence does not establish this specific response expectation.,NOT_REQUIRED
+bc_f29e2d613d00c4ba0dc9a7f5,reviewer_2,supported,req_da4ef67d0492733b0f1ef7d0,/components/schemas/NHInterior/properties/buy/type,The applicable response schema declares this value as array.,NOT_REQUIRED
+bc_f2e17052d78a170e9cd75ef5,reviewer_2,supported,req_31aab1dc3ce7923643347c03,/paths/~1userprofiles~1{profileId}~1floodlightConfigurations/patch/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_f307a50e0b8995a8947096e8,reviewer_2,undocumented_or_unsupported,,,The candidate evidence does not directly establish the asserted response value type.,NOT_REQUIRED
+bc_f35fda049533e5a5cea4eb2b,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_f3cc08a9a860374a0611c7e3,reviewer_2,undocumented_or_unsupported,,,The candidate evidence does not directly establish the asserted response value type.,NOT_REQUIRED
+bc_f60793270243083d2ea1bc5d,reviewer_2,undocumented_or_unsupported,,,The candidate evidence does not directly establish the asserted response value type.,NOT_REQUIRED
+bc_f66b3148524ab3bd41eee27e,reviewer_2,supported,req_95e0d9b124c3edf9a0402440,/paths/~1v1~1Services/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_f76ed89784394cf739094bc7,reviewer_2,supported,req_9a845745d4a849b7d715e5ca,/components/schemas/NHInterior/properties/tag/type,The applicable response schema declares this value as string.,NOT_REQUIRED
+bc_f7f6e70666bf148cb9d0d1a9,reviewer_2,undocumented_or_unsupported,,,The candidate evidence does not directly establish the asserted response value type.,NOT_REQUIRED
+bc_f7fb3caecdac9b8857cbc5cb,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_f8283ed09a5b836b5d58f364,reviewer_2,undocumented_or_unsupported,,,The applicable OpenAPI evidence does not establish this specific response expectation.,NOT_REQUIRED
+bc_f851539c230dc7be8a492192,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_f962648b121c1eecb109d1e5,reviewer_2,supported,req_4b33311f77ddeb48b2abe4bf,/paths/~1v2~1ethereum~1addresses/post/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_f97cbb9277f3fca9c6b30078,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_fa6cbf32d56843e14ca9f7ae,reviewer_2,supported,req_709955e61ea67f01cde15dcc,/paths/~1normJudgeSearch~1{normJudgeSearchId}/get/responses/500,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_fb24370dd83d6959c3b8e9a7,reviewer_2,supported,req_16e18cfbe43dcd77ff143042,/paths/~1transferInstruments~1{id}/patch/responses/401,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_fd545a35b174c44aa0eb5b14,reviewer_2,undocumented_or_unsupported,,,The candidate evidence does not directly establish the asserted response value type.,NOT_REQUIRED
+bc_fdb5c73958d4ac9bd310a820,reviewer_2,undocumented_or_unsupported,,,The available schema evidence does not require this property to be present in the response.,NOT_REQUIRED
+bc_fe9794dc4b39add883f47e10,reviewer_2,undocumented_or_unsupported,,,The applicable OpenAPI evidence does not establish this specific response expectation.,NOT_REQUIRED
+bc_ff46a608ac52242b3fe7be3c,reviewer_2,undocumented_or_unsupported,,,The applicable OpenAPI evidence does not establish this specific response expectation.,NOT_REQUIRED
+bc_ff66be3cb3b8eb10059b892a,reviewer_2,supported,req_328617acfc277fa8c0dc1478,/paths/~1recipes~1{id}~1analyzedInstructions/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED
+bc_ffafa1332d434d1cc4e808b3,reviewer_2,supported,req_8d89a15ef6bde012666de1a1,/paths/~1nearest_place/get/responses/200,The operation documents the asserted HTTP status code.,NOT_REQUIRED

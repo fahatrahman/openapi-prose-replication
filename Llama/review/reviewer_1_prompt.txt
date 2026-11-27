@@ -1,0 +1,34 @@
+You are Reviewer 1 in a blinded review of LLM-generated API test assertions.
+You review ALL 2,823 claims. Please work alone and do not discuss your labels with anyone, including the other reviewer.
+
+FILES (unzip stage_08_main_blind_reviewer_packets.zip)
+- Fill in ONLY: reviewer_1_template.csv.
+- Ignore the other reviewer's template and reviewer_2_frozen_sample.json.
+- context_bundle.jsonl: one JSON object per claim, keyed by blind_claim_id.
+- test_context.jsonl: the generated test source, looked up by test_context_id.
+- specification_context.jsonl: the OpenAPI document, looked up by spec_context_id.
+- REVIEW_INSTRUCTIONS.md: the same rules as this message.
+
+FOR EACH ROW in your template
+1. Find the same blind_claim_id in context_bundle.jsonl. Read normalized_claim and source_span, plus line and column in the test.
+2. Open the test (test_context_id) and the OpenAPI spec (spec_context_id). Work out what scenario and inputs the assertion applies to.
+3. If reachability is REACHED, use reached_case_evidence to see what was actually sent and returned. Otherwise judge from the spec and the test alone.
+4. Choose exactly one label:
+   supported: the spec justifies the expectation.
+   contradicted: the spec conflicts with the expectation.
+   undocumented_or_unsupported: the expectation is clear, but the spec does not establish it.
+   ambiguous_or_unverifiable: a needed value, scenario or rule cannot be resolved from the evidence.
+5. Fill in these columns:
+   label: one of the four strings above, spelled exactly.
+   reasoning: one or two sentences. Never leave it empty.
+   requirement_id + evidence_pointer: required for supported and contradicted. Copy BOTH from the SAME entry in that claim's candidate_evidence list. evidence_pointer is that entry's source_pointer, character for character. For the other two labels, leave both blank.
+   If no candidate_evidence entry fits a claim you would call supported or contradicted, use undocumented_or_unsupported or ambiguous_or_unverifiable instead.
+6. Leave reviewer_id, blind_claim_id and adjudication_status (NOT_REQUIRED) exactly as they are.
+
+DO NOT
+- add, remove, rename or reorder columns, or add or delete rows
+- try to guess which prose style produced a test; just judge the claim
+
+RETURN
+Every row must be filled. Save as CSV UTF-8 and name it exactly: reviewer_1_completed.csv
+(In Excel choose "CSV UTF-8 (Comma delimited)".)

@@ -1,0 +1,22 @@
+{
+  "archive": "stage_00_provenance_v1.zip",
+  "archive_bytes": 39477,
+  "archive_sha256": "c7d234f849139ea03a00bf617e28fc02213a48a8d044dd2f2e880112d4d5a8aa",
+  "artifact_record_schema": "openapi-artifact-v1",
+  "corpus_root": "/kaggle/input/datasets/anonuser01/apis-dataset/APIs",
+  "corpus_source_url": "https://www.kaggle.com/datasets/anonuser01/apis-dataset",
+  "internal_manifest_sha256": "33c292239f779099abe7553b6a6b879b270aac19b189ef15cf0079ee2709f820",
+  "model_id": "ibm-granite/granite-3.3-8b-instruct",
+  "model_revision": "51dd4bc2ade4059a6bd87649d68aa11e4fb2529b",
+  "producer_notebook": "00_protocol_and_runtime",
+  "reexport_of": {
+    "archive_digest_verified": false,
+    "internal_manifest_sha256": "108f00d7f930488106620817c1fda832757f060947e32a71318d99c1ab1c15ce",
+    "recorded_archive_sha256": "3681102f604a9d5f9e67b83a4c49b7dcb3dd241a41012e54e477c692fc9cc6f6",
+    "upstream_manifest_sha256": {}
+  },
+  "schema_version": "1.0",
+  "stage": "00",
+  "status": "PASS",
+  "upstream_datasets": []
+}

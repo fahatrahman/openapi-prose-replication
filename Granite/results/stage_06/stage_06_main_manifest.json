@@ -1,0 +1,33 @@
+{
+  "archive": {
+    "bytes": 7063785,
+    "filename": "stage_06_main.zip",
+    "member_count": 2604,
+    "project_prefix": "stage_06_main/prose_operation_experiment",
+    "sha256": "2de8866a1443f9bdb1956d32eb0ba82586c57ed88189714f5de1eeb7c235cb22"
+  },
+  "archive_bytes": 7063785,
+  "archive_name": "stage_06_main.zip",
+  "archive_sha256": "2de8866a1443f9bdb1956d32eb0ba82586c57ed88189714f5de1eeb7c235cb22",
+  "checkpoint_b_inherited": false,
+  "design_id": "openapi-fresh-pilot-v1",
+  "evaluator_correction": "VERSIONED_MAIN_ADAPTER_AND_COMPLETE_ENDPOINT_ACCOUNTING",
+  "evaluator_qualification": "PASS",
+  "internal_manifest": {
+    "artifact_count": 2603,
+    "relative_path": "registries/06_manifest.json",
+    "sha256": "173d70fc2afb66b1e9fffad4a209ad5dd342abcb5a91e28b67edc7ddc3f2984d"
+  },
+  "internal_manifest_sha256": "173d70fc2afb66b1e9fffad4a209ad5dd342abcb5a91e28b67edc7ddc3f2984d",
+  "main_partial_qualification_sha256": "6e35b4f42aa072cd0286a2d35f71958c314792b2eccab7b09139deef41aa37cb",
+  "may_begin_notebook_07": true,
+  "model_generation_performed": false,
+  "operation_count": 850,
+  "packaging_mode": "LEAN_NONCUMULATIVE_STAGE_PACKAGE",
+  "partition": "main",
+  "primary_endpoint_count": 7,
+  "protocol_scope": "main-seven-endpoint-exploratory-v1",
+  "stage": "06",
+  "status": "PASS",
+  "task_count": 1700
+}

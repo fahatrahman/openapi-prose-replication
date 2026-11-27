@@ -1,0 +1,43 @@
+{
+  "archive": "stage_05_main.zip",
+  "archive_bytes": 21131568,
+  "archive_sha256": "5c29757a3ada2138f915bd0953c1556186d45bd5b0458b4de1dbc929cc81ed80",
+  "artifact_count": 8511,
+  "artifact_record_schema": "openapi-artifact-v1",
+  "checkpoint_b_reached": false,
+  "configuration_hash": "65e21d64241549538409c6b88744cdd2b6b52a6a9b53d64d8f157e52c0535ea4",
+  "design_id": "openapi-fresh-pilot-v1",
+  "draft_content_sha256": "7f823b2e67ffe2ffde650df7c8179e30e79155b7e5510c8c7f7d3ce682b6ea67",
+  "human_review_complete": false,
+  "internal_manifest_sha256": "aa84fde8ad6f381f17ae1595175b4bf4e523556b622f55c7a466b2cd00f26b32",
+  "may_begin_exploratory_notebook_06": true,
+  "may_begin_notebook_06": false,
+  "model_generation_performed": false,
+  "operation_count": 850,
+  "oracle_repair_version": "stage05-main-response-oracle-repairs-v2",
+  "oracle_review_version": "main-documented-response-review-v3",
+  "partition": "main",
+  "protocol_scope": "main-seven-endpoint-exploratory-v1",
+  "review_csv_sha256": "1ce3641fc783ee8d60b2d366d2dee7ff9beb48b4879072784c7e81c6c0dd1718",
+  "routing_sha256": "b20b256ec15f63493e8952e6d74d04ec93d8ca57e5037c9ef14fd682a526b505",
+  "scenario_policy": "main-documented-response-suite-v1",
+  "stage": "05",
+  "status": "PASS",
+  "stratum_counts": {
+    "high": 283,
+    "low": 284,
+    "medium": 283
+  },
+  "success_status_qualification": {
+    "ambiguous_statuses_blocked": "PASS",
+    "default_only_unmapped": "PASS",
+    "policy": "single-explicit-success-v1",
+    "unique_explicit_status": "PASS"
+  },
+  "technical_oracle_qualification_complete": true,
+  "upstream_manifest_sha256": {
+    "00": "a064f3bb9814b3545ed81984c5a5bcd5a5ce236ce621f2fd0d039950efafc431",
+    "03": "74550c1645772a46e668cbbc4024fb36728cff14a27781694e851483251a9272",
+    "10": "7978d8f18a1ceabeeb6454a87d310d4b94867572317d2dc1f5d8394a7893c17e"
+  }
+}

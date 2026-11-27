@@ -1,0 +1,15 @@
+{
+  "archive": "stage_00_protocol_runtime_v1.zip",
+  "archive_bytes": 37459,
+  "archive_sha256": "af7d5f54e2082b8b366ea8e82ac3fb6f132f3db62470f86995d021528bf6e681",
+  "corpus_root": "/kaggle/input/datasets/anonuser01/apis-dataset/APIs",
+  "corpus_source_url": "https://www.kaggle.com/datasets/anonuser01/apis-dataset",
+  "internal_manifest_sha256": "a28b09e0ccf369920b816846b1c4b2ccbeb563d438173aac08725bd505c6ff95",
+  "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+  "model_revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+  "producer_notebook": "00_protocol_and_runtime",
+  "schema_version": "1.0",
+  "stage": "00",
+  "status": "PASS",
+  "upstream_datasets": []
+}
